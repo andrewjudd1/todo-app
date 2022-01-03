@@ -1,0 +1,24 @@
+html, body{
+  background: #2478ff;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+#__next {
+  background: #2478ff;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  transition-duration: 0.5s;
+}

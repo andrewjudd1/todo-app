@@ -1,0 +1,134 @@
+
+
+.todoTitle {
+  color: #e3eeff;
+  margin: 0 0 5px 0;
+  padding: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.taskCreatorContainer {
+   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+  
+  height: 120px;
+  background: #5e9cff;
+  box-shadow: 1px 1px 2px;
+  transition-duration: 0.5s;
+
+}
+
+.taskCreatorContainer:hover {
+  transition-duration: 0.5s;
+  box-shadow: 1px 1px 10px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.taskCreatorInput {
+  padding-left: 10px;
+  width: 200px;
+  height: 30px;
+  background: #2478ff;
+  color: #e3eeff;
+  border: none;
+  outline: none;
+
+}
+
+.taskCreatorInput::placeholder {
+  color: #e3eeff;
+}
+
+.taskCreatorButton {
+  background: #2478ff;
+  padding: 5px 30px;
+  border: none;
+  color: #e3eeff;
+  cursor: pointer;
+}
+
+.allTasksContainer{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.allTasksTitle {
+  color: #e3eeff;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.taskContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #5e9cff;
+color: #e3eeff;
+min-width: 250px;
+max-width: 500px;
+margin: 0;
+padding: 0;
+}
+
+.taskInput {
+  padding-left: 10px;
+  width: 200px;
+  height: 30px;
+  font-size: 25px;
+  background: #2478ff;
+  color: #e3eeff;
+  border: none;
+  outline: none;
+}
+
+
+
+.taskCompleted {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.task {
+ font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .todoTitle {
+    font-size: 40px;
+  }
+  .taskCreatorContainer {
+    height: 200px;
+  }
+  .taskCreatorInput {
+    width: 300px;
+    font-size: 20px;
+    height: 45px;
+  }
+  .taskCreatorButton {
+    font-size: 20px;
+    
+  }
+
+  .taskContainer { 
+    min-width: 350px;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+}
